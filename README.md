@@ -1,26 +1,16 @@
-# README
+<h1>TMOOC </h1>
 
-Réalisé par Priscille de la Tour et Louis Martin du Nord
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Réalisé par C. Avronsart et v.Richaud
 
-* Ruby version
+<p>On veut créer une plateforme d'apprentissage en ligne. Il y a plein de cours. Chaque cours a un titre et une description. Enfin, chaque cours a plusieurs leçons, qui ont un titre et un body.</p>
 
-* System dependencies
+<p> Pour ce faire nous avons créé le modèle suivant: 
+	<ul>
+		<li> <strong>Cour</strong> qui a comme attributs 'title' et 'description'.<br/>
+			- <em>has_many</em> : Un Cour a plusieurs leçons</li>
+		<li> <strong>Leçon</strong> qui a comme attributs 'title' et 'body'.<br/>
+			- <em>belongs_to</em> : Un Article appartient à un cours<br/>
+		</ul></p>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
